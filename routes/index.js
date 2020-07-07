@@ -33,6 +33,22 @@ router.get("/login", function(req, res){
     res.render("login");
 });
 
+// Show admin form
+router.get("/admin", function(req, res){
+    res.render("admin");
+});
+
+// Handle admin logic
+router.post("/admin", function(req, res){
+    if(req.body.admin.password === "makisePudding"){
+        User.findById(req.user._id, function(err, foundUser){
+            foundUser.isAdmin = true;
+            foundUser.save();
+        });
+    }
+    res.redirect("/campgrounds");
+});
+
 // Handle login logic
 router.post("/login", passport.authenticate("local",
     {
