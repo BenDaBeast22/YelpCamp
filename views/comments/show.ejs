@@ -1,0 +1,13 @@
+<%- include("../partials/header") %>
+
+<div class="container">
+    <div class="text-center">
+        <h1>Comments</h1>
+        <p class="lead"> <%= comment.text %> </p>
+        <hr>
+        <p class="justify"> <em>Author: <%= comment.author.username %></em> </p>
+        <a class="btn btn-primary btn-block" href="/campgrounds/<%= campgroundID %>">Back</a>
+    </div>
+</div>
+
+<%- include("../partials/footer") %>
