@@ -50,6 +50,7 @@ app.use("/", indexRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 app.use("/campgrounds", campgroundRoutes);
 
-app.listen("3000", function(){
-    console.log("YelpCamp server has started");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, function(){
+    console.log("App is running on port "+PORT);
 });
