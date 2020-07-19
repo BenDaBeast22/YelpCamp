@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Campground = require("../models/campground");
 const middleware = require("../middleware");
+const darkmode = require("darkmode-js");
 
 //INDEX - Shows all campgrounds
 router.get("/", function(req, res){
