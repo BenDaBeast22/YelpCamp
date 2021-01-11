@@ -40,22 +40,22 @@ body{
 }
 
 .slideshow li:nth-child(1) {
-  background-image: url(https://i.ytimg.com/vi/CTPAPccc0Qk/maxresdefault.jpg);
+  background-image: url(https://images.unsplash.com/photo-1563024767-5bd8ee292c3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
 }
 .slideshow li:nth-child(2) {
-  background-image: url(http://s1.picswalls.com/wallpapers/2015/09/27/one-piece-hd-wallpapers_011530267_277.jpg);
+  background-image: url(https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   animation-delay: 10s;
 }
 .slideshow li:nth-child(3) {
-  background-image: url(https://wallpapercave.com/wp/wp2542795.jpg);
+  background-image: url(https://images.unsplash.com/photo-1464547323744-4edd0cd0c746?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   animation-delay: 20s;
 }
 .slideshow li:nth-child(4) {
-  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/05/16/86524/2f6a36fdd44bc231540d27c5861ee94f.jpg);
+  background-image: url(https://images.unsplash.com/photo-1559521783-1d1599583485?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   animation-delay: 30s;
 }
 .slideshow li:nth-child(5) {
-  background-image: url(https://images2.alphacoders.com/661/661991.png);
+  background-image: url(https://images.unsplash.com/photo-1455763916899-e8b50eca9967?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
   animation-delay: 40s;
 }
 
